@@ -1,0 +1,13 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armjlink2.dll" 
+
+"D:\JbufaProjects\lora_sn_allinone\lib\hc32l13x_ddl\example\gpio\gpio_deepsleep_wakeup\EWARM\output\release\Exe\gpio_deepsleep_wakeup.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armbat.dll" 
+
+--flash_loader="D:\JbufaProjects\lora_sn_allinone\lib\hc32l13x_ddl\example\gpio\gpio_deepsleep_wakeup\EWARM\flashloader\HC32L13X.board" 
+
+
+
+

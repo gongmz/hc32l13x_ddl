@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2437048920</fileChecksum>
+    <configuration>
+        <name>Release</name>
+        <outputs>
+            <file>$PROJ_DIR$\startup_hc32l13x.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\driver\src\lpm.c</file>
+            <file>$PROJ_DIR$\..\source\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\driver\src\gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\driver\src\sysctrl.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\driver\src\ddl.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\mcu\common\interrupts_hc32l13x.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\mcu\common\system_hc32l13x.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\driver\inc\gpio.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\output\release\List\gpio_deepsleep_wakeup.map</file>
+            <file>$PROJ_DIR$\..\..\..\..\mcu\common\base_types.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\mcu\common\board_stkhc32l13x.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tlf.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\driver\inc\sysctrl.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\hc32l13x.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\mcu\common\interrupts_hc32l13x.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\mcu\common\system_hc32l13x.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm0plus.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\driver\inc\lpm.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\output\release\Exe\gpio_deepsleep_wakeup.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\mcu\common\hc32l13x.h</file>
+            <file>$PROJ_DIR$\output\release\Obj\system_hc32l13x.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\output\release\Obj\lpm.o</file>
+            <file>$PROJ_DIR$\output\release\Obj\main.o</file>
+            <file>$PROJ_DIR$\output\release\Obj\lpm.pbi</file>
+            <file>$PROJ_DIR$\..\source\ddl_device.h</file>
+            <file>$PROJ_DIR$\output\release\Obj\ddl.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\driver\inc\ddl.h</file>
+            <file>$PROJ_DIR$\output\release\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\output\release\Obj\gpio_deepsleep_wakeup.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\output\release\Obj\startup_hc32l13x.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\output\release\Obj\sysctrl.o</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\output\release\Obj\gpio.pbi</file>
+            <file>$PROJ_DIR$\output\release\Obj\interrupts_hc32l13x.pbi</file>
+            <file>$PROJ_DIR$\output\release\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\output\release\Obj\ddl.o</file>
+            <file>$PROJ_DIR$\output\release\Obj\interrupts_hc32l13x.o</file>
+            <file>$PROJ_DIR$\output\release\Obj\system_hc32l13x.pbi</file>
+            <file>$PROJ_DIR$\output\release\Obj\sysctrl.pbi</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 32 11</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_hc32l13x.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\driver\src\lpm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28 43 12 14 33 24 22 31 18 48 30 20 36 46 8 13 34 26 27 50 16 42 25 19 23 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33 24 46 25 22 31 26 50 42 43 13 23 30 48 18 16 12 34 19 40 14 36 8 20 28 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\source\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9 43 12 14 33 24 22 31 18 48 30 20 36 46 8 13 34 26 27 50 16 42 25 19 23 40 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24 40 48 46 34 30 18 27 12 19 33 22 31 26 28 43 13 25 23 14 36 8 20 9 50 16 42</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\driver\src\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9 43 12 14 33 24 22 31 18 48 30 20 36 46 8 13 34 26 27 50 16 42 25 19 23 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24 23 8 33 13 14 20 46 43 25 36 48 12 34 19 40 30 22 31 18 26 27 9 50 16 42</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\driver\src\sysctrl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 43 12 14 33 24 22 31 18 48 30 20 36 46 8 13 34 26 27 50 16 42 25 23 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50 24 40 48 42 34 30 18 46 43 12 19 33 22 31 26 16 13 25 23 14 36 8 20 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\driver\src\ddl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43 12 14 33 24 22 31 18 48 30 20 36 46 8 13 34 26 27 50 16 42 25 19 23 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33 46 34 36 40 48 50 42 43 12 19 14 8 24 20 16 13 25 23 30 22 31 18 26 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\mcu\common\interrupts_hc32l13x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43 12 14 33 24 22 31 18 48 30 20 36 46 8 13 34 26 27 50 16 42 25 19 23 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36 33 34 46 40 48 50 42 43 12 19 14 8 24 20 16 23 13 25 30 22 31 18 26 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\mcu\common\system_hc32l13x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 14 33 24 22 31 18 48 30 20 36 46 8 34 26 27 50 16 42 25 19 43 13 23 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24 8 26 33 14 20 13 25 36 48 23 34 19 30 46 22 31 18 27 12 50 16 42 43 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\output\release\Exe\gpio_deepsleep_wakeup.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 21 54 53 55 37 38 47 49 35 10 29 15 17</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>debug</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
