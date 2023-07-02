@@ -128,7 +128,7 @@ void EnableNvic(IRQn_Type enIrq, en_irq_level_t enLevel, boolean_t bEn)
  **
  ** \retval
  ******************************************************************************/
-void HardFault_Handler(void)
+/*void HardFault_Handler(void)
 {    
     volatile int a = 0;
 
@@ -137,7 +137,7 @@ void HardFault_Handler(void)
         ;
     }
     
-}
+}*/
 
 
 /**
@@ -146,10 +146,10 @@ void HardFault_Handler(void)
  **
  ** \retval
  ******************************************************************************/
-void SysTick_Handler(void)
+/*void SysTick_Handler(void)
 {
    SysTick_IRQHandler();
-}
+}*/
 
 /**
  *******************************************************************************
